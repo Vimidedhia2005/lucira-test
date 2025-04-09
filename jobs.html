@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore Jobs | Lucira</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="main-title">
+        🚀 Explore Exciting Tech Jobs
+        <span class="underline"></span>
+      </h1>
+  </header>
+
+  <main class="container">
+    <section class="job-card">
+        <div class="job-header">
+          <h2 class="job-title">Frontend Developer</h2>
+          <span class="job-type">Full-time</span>
+        </div>
+        <div class="company-info">
+          <h3 class="company-name">Innovators of Tomorrow</h3>
+          <p class="location">Remote</p>
+        </div>
+        <div class="job-details">
+          <p class="salary"> $70,000 - $100,000 / year</p>
+          <p class="description">
+            Design and build user-friendly web interfaces. Collaborate with designers and backend developers to bring ideas to life.
+          </p>
+        </div>
+        <div class="card-actions">
+          <button class="apply-btn">Apply Now</button>
+          <button class="save-btn"> Save</button>
+        </div>
+      </section>
+  
+      <section class="job-card">
+        <div class="job-header">
+          <h2 class="job-title">UI/UX Designer</h2>
+          <span class="job-type">Contract</span>
+        </div>
+        <div class="company-info">
+          <h3 class="company-name">Creative Minds Inc.</h3>
+          <p class="location">New York, NY</p>
+        </div>
+        <div class="job-details">
+          <p class="salary">$40/hr</p>
+          <p class="description">
+            Develop wireframes, prototypes, and visual designs. Ensure usability and elegance across all user interfaces.
+          </p>
+        </div>
+        <div class="card-actions">
+          <button class="apply-btn">Apply Now</button>
+          <button class="save-btn">Save</button>
+        </div>
+      </section>
+  
+      <section class="job-card">
+        <div class="job-header">
+          <h2 class="job-title">Junior Web Developer</h2>
+          <span class="job-type">Part-time</span>
+        </div>
+        <div class="company-info">
+          <h3 class="company-name">NextGen Webworks</h3>
+          <p class="location">Austin, TX</p>
+        </div>
+        <div class="job-details">
+          <p class="salary">$25/hr</p>
+          <p class="description">
+            Assist senior developers in building responsive websites. Great opportunity for recent grads or self-taught developers.
+          </p>
+        </div>
+        <div class="card-actions">
+          <button class="apply-btn">Apply Now</button>
+          <button class="save-btn">Save</button>
+        </div>
+      </section>
+  
+      <section class="job-card">
+        <div class="job-header">
+          <h2 class="job-title">Mobile App Designer</h2>
+          <span class="job-type">Freelance</span>
+        </div>
+        <div class="company-info">
+          <h3 class="company-name">AppFusion Studios</h3>
+          <p class="location">Remote</p>
+        </div>
+        <div class="job-details">
+          <p class="salary">Project-based</p>
+          <p class="description">
+            Design stunning mobile UI/UX for both iOS and Android. Work directly with the dev team to implement visuals.
+          </p>
+        </div>
+        <div class="card-actions">
+          <button class="apply-btn">Apply Now</button>
+          <button class="save-btn">Save</button>
+        </div>
+      </section>
+  
+      <section class="job-card">
+        <div class="job-header">
+          <h2 class="job-title">React Developer</h2>
+          <span class="job-type">Full-time</span>
+        </div>
+        <div class="company-info">
+          <h3 class="company-name">TechWave Labs</h3>
+          <p class="location">San Francisco, CA</p>
+        </div>
+        <div class="job-details">
+          <p class="salary">$90,000 - $120,000 / year</p>
+          <p class="description">
+            Build modern web apps using React and Redux. Strong JavaScript knowledge and clean coding practices required.
+          </p>
+        </div>
+        <div class="card-actions">
+          <button class="apply-btn">Apply Now</button>
+          <button class="save-btn">Save</button>
+        </div>
+      </section>
+  
+      <section class="job-card">
+        <div class="job-header">
+          <h2 class="job-title">Graphic Designer</h2>
+          <span class="job-type">Internship</span>
+        </div>
+        <div class="company-info">
+          <h3 class="company-name">BrightPixel Agency</h3>
+          <p class="location">Chicago, IL</p>
+        </div>
+        <div class="job-details">
+          <p class="salary">$800/month stipend</p>
+          <p class="description">
+            Assist in creating digital content for social media, websites, and print. Must have a creative eye and portfolio.
+          </p>
+        </div>
+        <div class="card-actions">
+          <button class="apply-btn">Apply Now</button>
+          <button class="save-btn">Save</button>
+        </div>
+      </section>
+  
+      <section class="job-card">
+        <div class="job-header">
+          <h2 class="job-title">Product Designer</h2>
+          <span class="job-type">Remote</span>
+        </div>
+        <div class="company-info">
+          <h3 class="company-name">FlowSpace</h3>
+          <p class="location">Remote</p>
+        </div>
+        <div class="job-details">
+          <p class="salary">$100,000 / year</p>
+          <p class="description">
+            Lead design strategy and craft intuitive user experiences across our SaaS platform. Collaborate closely with engineers and PMs.
+          </p>
+        </div>
+        <div class="card-actions">
+          <button class="apply-btn">Apply Now</button>
+          <button class="save-btn"> Save</button>
+        </div>
+      </section>
+  </main>
+
+  <footer>
+    <p class="footer-text">© 2025 | Crafted with ❤️ during the tech round</p>
+  </footer>
+
+  <script>
+    // Simple "Save" toggle
+    document.querySelectorAll('.save-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.classList.toggle('saved');
+        btn.textContent = btn.classList.contains('saved') ? 'Saved' : 'Save';
+      });
+    });
+  </script>
+</body>
+</html>

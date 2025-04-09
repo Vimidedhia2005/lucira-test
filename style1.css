@@ -1,0 +1,106 @@
+ /* LANDING PAGE */
+/* Reset additions */
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Landing page layout */
+  body.landing {
+    background: linear-gradient(to right, #6366f1, #8b5cf6);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* NavBar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .nav-links a {
+    margin-left: 1.5rem;
+    font-weight: 600;
+    color: #fef3c7;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #fff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    animation: fadeIn 1.5s ease-in;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    animation: fadeIn 2s ease-in;
+  }
+  
+  .hero-buttons .btn {
+    padding: 0.8rem 1.8rem;
+    font-weight: 600;
+    border-radius: 8px;
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .btn.primary {
+    background: white;
+    color: #4f46e5;
+  }
+  
+  .btn.primary:hover {
+    background: #f9fafb;
+  }
+  
+  .btn.outline {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+  }
+  
+  .btn.outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* DONE */

@@ -8,7 +8,7 @@ Welcome to the frontend creativity test!
 2. **Download the code** from the newly created branch.
 3. Make all your changes in **your own branch only**.
 4. **Upload your code** to your branch.  
-   ❗️Do **NOT** push your code to the `main` branch.
+   ❗️Do **NOT** push your code to the `main` branch. Direct 0 if you do
 
 ---
 
